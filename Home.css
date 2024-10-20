@@ -1,0 +1,266 @@
+@import url(./Header.css);
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+#container1{
+    height: 800px;
+    width: 100%;
+    border: 1px solid;
+    background-image: url('https://knight-bite.com/res/index/app-link-background.svg');
+    background-repeat: no-repeat;
+}
+
+main>#p1{
+    text-align: center;
+    margin-top: 300px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 90px;
+}
+main{
+    position: relative;
+}
+
+main>button{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(221, 80, 127);
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    left: 650px;
+    top: 190px;
+}
+
+main>button>a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#p2{
+    font-size: 26px;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+#download{
+    height: 70px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+#download>a>img{
+    border-radius: 6px;
+    height: 60px;
+    width: 200px;
+}
+
+#download>a>img:hover{
+    height: 55px;
+    width: 190px;
+}
+
+
+#container2{
+    height: 650px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#container2>h2{
+    font-family:"Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(49, 47, 47);
+}
+
+.img-div{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.img-div>img{
+    margin-top: 10px;
+    height: 180px;
+}
+
+.img-div>p{
+    color: gray;
+    font-size: 22px;
+    text-align: center;
+}
+
+#div1-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container3{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-image: url(https://knight-bite.com/res/index/banner-1.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container3>h1, #container4>p{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+    padding-top:70px ;
+}
+
+#container4{
+    height: 950px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-image: url(https://knight-bite.com/res/index/banner-2.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container4>a{
+    height: 70px;
+    width: 250px;
+    border: 1px solid;
+    color: white;
+    padding: 15px 5px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+#div1-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/*container5*/
+#container5{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    color: rgb(216, 28, 59);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#container5>h1{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(49, 47, 47);
+    padding: 20px 20px 0px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+}
+
+#flex{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    height: 900px;
+}
+
+#container5 h2{
+    color: rgb(105, 100, 100);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#section1,#section2,#section3{
+    width: auto;
+    padding: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 p>i{
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+#container5 p,#section2 #ul2>li{
+    color: rgb(71, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: large;
+}
+
+#section2 a{
+    color: rgb(241, 107, 129);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45px;
+    font-size: large;
+}
+
+#section3 input{
+    padding: 20px;
+    /* border: 1px solid black; */
+    width: 450px;
+    border-radius: 40px;
+    font-size: larger;
+    color: rgb(213, 201, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section3 button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(236, 166, 236);
+    border: none;
+    position: absolute;
+    right: 205px;
+}
+
+#container5 .one{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+
+/* *{
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */

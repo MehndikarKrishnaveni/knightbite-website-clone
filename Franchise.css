@@ -1,0 +1,221 @@
+@import url(./Header.css);
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+.div1-h3{ /*Knight bite logo*/
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+#container1{
+    height: 870px;
+    width: 100%;
+    background-color: gray;
+}
+
+#div1-1{
+    height: 330px;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+#div1-1>h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+}
+#div1-1>h3{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#div1-1 a{
+    text-decoration: none;
+    position: relative;
+}
+#div1-1 a>button,#container-3>a>button{
+    padding: 15px;
+    background-color: rgb(237, 60, 90);
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    left: 500px;
+}
+
+#div1-1 #a1{
+    position: absolute;
+    left: 530px ;
+    bottom: 10px;
+}
+
+#a1>i{
+    color: white;
+}
+#a1{
+    font-size: large;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: none;
+}
+/* container2  */
+#container2{
+    height: 1200px;
+    width: 90%;
+    margin: auto;
+    border-bottom:3px solid purple ;
+}
+#div1-2{
+    height: 300px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid purple;
+}
+
+#div1-2>h1,#div2-2>h1{
+    font-family:  Helvetica,  sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(62, 59, 59);
+    text-align: center;
+}
+
+
+#div1-2>p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div2-2{
+    height: 800px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex ;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#div2-2>h1{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px auto;
+}
+#flex-box{
+    display: flex ;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+.col1{
+    height: 600px;
+    width: 400px;
+    /* border: 1px solid black; */
+    display: flex ;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.row1,.row2{
+    /* border: 1px solid black; */
+    height: 300px;
+    text-align: center;
+}
+
+#flex-box h3,#flex-box p{
+    color: black;
+    line-height: 25px;
+}
+
+#flex-box img{
+    margin-top: 20px;
+    height: 80px;
+}
+/* container3 */
+#container-3{
+    height: 800px;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    color: black;
+}
+
+#container-3>h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+#img1-3>img{
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    height: 510px;
+    width: 70%;
+}
+#container-3{
+    position: relative;
+    border-bottom: 3px solid purple;
+    width: 90%;
+    margin: auto;
+}
+
+#container-3>a{
+    position: absolute;
+    left: 80px;
+}
+
+/* container4 */
+#container-4{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid; */
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#div1-4{
+    display: flex;
+    justify-content: space-evenly;
+}
+#div1-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.Brochure>i{
+    color: rgb(233, 120, 190);
+}
+
+
+
+
+

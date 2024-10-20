@@ -1,0 +1,142 @@
+@import url(./Header.css);
+
+.div1-h3{ /*Knight bite logo*/
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+#container1{
+    height: 800px;
+    margin: 0px;
+    width: 100%;
+    background: url(https://knight-bite.com/res/about/banner.webp);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#div1-1{
+    height: fit-content;
+    width: fit-content;
+    /* border: 1px solid; */
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+#div1-1>h1{
+    font-size: 55px;
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+        
+}
+
+/* container1 ends  */
+
+#container2{
+    height: 1500px;
+    width: 90%;
+    margin: auto;
+    /* border: 2px double red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#div1-2,#div2-2{
+    height: 1500px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.row1{
+    height: 150px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: 0px auto;
+}
+
+.row2,.row3{
+    height: 400px;
+    /* border: 1px solid blue; */
+    /* background-color: blueviolet; */
+}
+
+#img1{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 600px;
+}
+
+#d2-p1, #d2-p2{
+    line-height: 30px;
+    font-size: 20px ;
+    /* border: 1px solid; */
+    width: 100%;
+    padding: 10px;
+}
+
+
+#d1-p1{
+    /* height: 300px; */
+    width: 100%;
+    line-height: 30px;
+    font-size: 20px ;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+#d2-p2{
+    padding: 25% 0%;
+}
+
+#img2-2{
+    width: 100%;
+    /* margin: 0px auto; */
+}
+
+#div1-2 h1,#div2-2 h1{
+    height: 70px;
+    width: 100%;
+    font-size: 40px;
+    /* border: 1px solid; */
+    font-weight: bolder;
+    color: rgb(64, 62, 62);
+}
+
+.loc{
+    width: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid; */
+    font-size: large;
+    padding: 5px 0px;
+    color: rgb(75, 75, 75);
+}
+
+.row4{
+    height: 400px;
+    /* border: 3px solid red; */
+}
+
+#follow-us{
+    padding: 15% 3%;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }

@@ -1,0 +1,111 @@
+#logo{
+    border: 1px solid white;
+    padding: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#div1-h3{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+#div-logo{
+    margin-left: 50px;
+}
+
+header{
+    position: fixed;
+}
+
+#div1{
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* position: relative; */
+    position: fixed;
+}
+
+#div1>i{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+#nav{
+    height: 100%;
+    width: 600px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 0px;
+    right: 10px;  
+    padding-top: 40px ;
+    margin: 0px;
+}  
+
+#nav>a{
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+} 
+
+#nav>a:hover{
+    color: blueviolet;
+}
+
+body{
+    margin: 0px;
+}
+
+.connect-link{ /* social media links*/
+    height: 100px;
+    width: 400px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    color: rgb(238, 110, 132);
+}
+
+.chat{
+    /* height: 60px;
+    width: 60px; */
+    /* border: 1px solid rgb(238, 110, 132); */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: rgb(238, 110, 132);
+    border-radius: 50% 0% 50% 50%;
+    color: white;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(244, 111, 162);
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+}
+
+/*univeral selector*/
+
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
